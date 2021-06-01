@@ -1,0 +1,22 @@
+
+‚
+java:S4165""gRemove this useless assignment; "numOfPass" already holds the assigned value along all execution paths.(Ü·ß·øÿÿÿÿ
+H
+java:S1199 "-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199@"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ðþ²îþÿÿÿÿ
+7
+java:S1170"!Make this final field static too.(¥ãÔ¿
+W
+java:S2209,"5Change this instance-reference to a static reference.(¦ Ÿ¼ûÿÿÿÿ8æŠ¸’œ/
+W
+java:S2209/"5Change this instance-reference to a static reference.(ßü³…üÿÿÿÿ8æŠ¸’œ/
+W
+java:S2209K"5Change this instance-reference to a static reference.(¦ Ÿ¼ûÿÿÿÿ8æŠ¸’œ/
+W
+java:S2209N"5Change this instance-reference to a static reference.(ßü³…üÿÿÿÿ8çŠ¸’œ/
+W
+java:S2209d"5Change this instance-reference to a static reference.(¦ Ÿ¼ûÿÿÿÿ8çŠ¸’œ/
+W
+java:S2209g"5Change this instance-reference to a static reference.(ßü³…üÿÿÿÿ8çŠ¸’œ/

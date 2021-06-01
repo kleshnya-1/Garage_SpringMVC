@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>startpage</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+</head>
+<body>
+<header th:insert="blocks/header :: header" ></header>
+Welcome dear Client to our StartPage
+
+<br>
+<a href="/client/new_order" type="button" class="btn btn-sm btn-outline-secondary">Common order</a>
+<a href="/client/new_order_special" type="button" class="btn btn-sm btn-outline-secondary">Order with Special Conditions</a>
+
+
+</body>
+</html>

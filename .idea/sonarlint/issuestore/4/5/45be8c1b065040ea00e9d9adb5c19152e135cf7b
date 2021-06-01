@@ -1,0 +1,9 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›ðÚ¢øÿÿÿÿ8©¨¶é›/
+_
+java:S1128
+"BRemove this unused import 'javax.servlet.http.HttpServletRequest'.(ø©¹…8ª¨¶é›/
+]
+java:S1128	";Remove this unused import 'javax.servlet.http.HttpServlet'.(û÷Å›ÿÿÿÿÿ8«¨¶é›/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(íÛ¯¼8®¨¶é›/
+C	java:S131 ""Add a default case to this switch.(õÙÆ‚úÿÿÿÿ8¯¨¶é›/

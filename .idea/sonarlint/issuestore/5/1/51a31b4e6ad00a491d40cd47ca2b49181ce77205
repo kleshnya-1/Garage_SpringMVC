@@ -1,0 +1,10 @@
+
+c
+java:S3973/"GUse indentation to denote the code conditionally executed by this "if".(ÿŒğ`8àÙò™œ/
+S
+java:S1155)">Use isEmpty() to check whether the collection is empty or not.(¨¼C
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(â‡ğ°
+y
+java:S1488!"^Immediately return this expression instead of assigning it to the temporary variable "tInter".(¥§µ¡ÿÿÿÿÿ
+@
+java:S1168)"+Return an empty collection instead of null.(¨¼C

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Drivers</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+</head>
+<body>
+
+<header th:insert="blocks/header :: header" ></header>
+Drivers in park
+<div th:each="driver : ${drivers}">
+    <a th:href="@{/drivers/{id}(id=${driver.getDriverId()})}"
+       th:text="${driver.getDriverId()+' - '+driver.getName()}">user</a>
+
+
+
+</div>
+
+
+
+</body>
+</html>

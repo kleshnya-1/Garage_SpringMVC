@@ -1,0 +1,12 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(â‡ð°
+i
+java:S3008"NRename this field "URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß—¦Èûÿÿÿÿ
+h
+java:S3008"SRename this field "USERNAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÔ´]
+h
+java:S3008"SRename this field "PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ§»Q
+H
+java:S4925"-Remove this "Class.forName()", it is useless.(õ†¨Äùÿÿÿÿ
+L
+java:S2696"6Make the enclosing method "static" or remove this set.(†±àÜ

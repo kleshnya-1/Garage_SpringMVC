@@ -1,0 +1,7 @@
+
+q
+java:S2095'"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ú§¹¸üÿÿÿÿ8ãû„ê›/
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÛÖ¿à8åû„ê›/
+X	java:S125"<This block of commented-out lines of code should be removed.(ö«ùì8éû„ê›/
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(½ƒèš8íû„ê›/
+T	java:S106!"9Replace this use of System.out or System.err by a logger.(µß°8íû„ê›/

@@ -1,0 +1,8 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ¸É˜
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ğş²îşÿÿÿÿ
+q
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(¯¯¯8Ìİªœ/
+l	java:S116
+"RRename this field "is_male" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú§ÿ×ıÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àïÔƒşÿÿÿÿ

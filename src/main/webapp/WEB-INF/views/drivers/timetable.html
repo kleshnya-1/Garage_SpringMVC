@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org" xmlns:form="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html" charset="UTF-8">
+    <title>Timetable</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+
+
+<header th:insert="blocks/header :: header" ></header>
+
+
+TT for drivers
+
+
+
+
+<div class="w3-row">
+
+    <div class="w3-container w3-twothird">
+
+
+        <div class="w3-responsive w3-round-large w3-centered">
+            <table class="w3-table w3-striped w3-bordered w3-white w3-card-4 w3-hoverable w3-centered">
+                <thead>
+                <tr style="background-color: #817a79">
+                    <th>Driver name</th>
+                    <th>carId</th>
+                    <th>carBrand</th>
+                    <th>order</th>
+                    <th>busyTime</th>
+
+                    <th>numOfEl</th>
+                    <th>distance</th>
+                    <th>price</th>
+                   <!-- <th>time</th>-->
+                    <th>note</th>
+                    <th>action</th>
+
+                </tr>
+                </thead>
+
+                <tr th:each="t : ${TimeTableList}">
+                    <td th:text="${t.getDriverName()}">fff</td>
+                    <td th:text="${t.getCarId()}">fff</td>
+                    <td th:text="${t.getCarBrand()}">fff</td>
+                    <td th:text="${t.getOrder()}">fff</td>
+                    <td th:text="${t.getBusyTime()}">fff</td>
+
+                    <td th:text="${t.getNumOfEl()}">fff</td>
+                    <td th:text="${t.getDistance()}">fff</td>
+                    <td th:text="${t.getPrice()}">fff</td>
+                   <!-- <td th:text="${t.getTime()}">fff</td>-->
+                    <td th:text="${t.getNote()}">fff</td>
+
+                    <td href="@{/cars/7/drive_and_back  }"
+                        type="button" class="btn btn-sm btn-outline-secondary">Drive</td>
+
+
+<!--                        <td href="@{/cars/{carId}/drive_and_back (carId=${t.getCarId() } ) }"
+                        type="button" class="btn btn-sm btn-outline-secondary">Drive</td>-->
+
+
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

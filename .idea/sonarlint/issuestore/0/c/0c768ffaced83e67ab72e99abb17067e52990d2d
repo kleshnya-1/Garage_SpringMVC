@@ -1,0 +1,8 @@
+
+i
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8§Ìµœ/
+i
+java:S2095&"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8‰³µœ/
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ïÍ¯»8×÷„ê›/
+g	java:S112$"FDefine and throw a dedicated exception instead of using a generic one.(Õ¾Éøøÿÿÿÿ8§Ò ˜œ/
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ä¢…Šıÿÿÿÿ8Û÷„ê›/

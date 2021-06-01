@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org" xmlns:form="http://www.w3.org/1999/xhtml">
+<head>
+
+    <title>timetable</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+</head>
+<body>
+
+<header th:insert="blocks/header :: header" ></header>
+Timetable
+
+
+    <div class="w3-row">
+
+        <div class="w3-container w3-twothird">
+
+
+            <div class="w3-responsive w3-round-large w3-centered">
+                <table class="w3-table w3-striped w3-bordered w3-white w3-card-4 w3-hoverable w3-centered">
+                    <thead>
+                    <tr style="background-color: #f5812c">
+                        <th>Driver name</th>
+                        <th>carId</th>
+                        <th>carBrand</th>
+                        <th>order</th>
+                        <th>busyTime</th>
+
+                        <th>numOfEl</th>
+                        <th>distance</th>
+                        <th>price</th>
+                   <!--     <th>time</th>-->
+                        <th>note</th>
+
+                    </tr>
+                    </thead>
+
+                    <tr th:each="t : ${TimeTableList}">
+
+                        <td th:text="${t.getDriverName()}">fff</td>
+                        <td th:text="${t.getCarId()}">fff</td>
+                        <td th:text="${t.getCarBrand()}">fff</td>
+                        <td th:text="${t.getOrder()}">fff</td>
+                        <td th:text="${t.getBusyTime()}">fff</td>
+
+                        <td th:text="${t.getNumOfEl()}">fff</td>
+                        <td th:text="${t.getDistance()}">fff</td>
+                        <td th:text="${t.getPrice()}">fff</td>
+                    <!--    <td th:text="${t.getTime()}">fff</td>-->
+                        <td th:text="${t.getNote()}">fff</td>
+
+
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

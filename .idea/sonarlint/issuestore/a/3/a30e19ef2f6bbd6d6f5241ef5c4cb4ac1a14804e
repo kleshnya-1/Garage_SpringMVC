@@ -1,0 +1,13 @@
+
+f	java:S117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıòšØ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ıÖÂ¬øÿÿÿÿ
+t
+java:S1450"YRemove the "driverName" field and declare it as a local variable in the relevant methods.(ÒüÆ¹üÿÿÿÿ
+l	java:S116"RRename this field "is_male" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú§ÿ×ıÿÿÿÿ
+>
+java:S1185"(Remove this method to simply inherit it.(èÁÛ
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÁÛ8«Êİ¶œ/
+h	java:S100%"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àïÔƒşÿÿÿÿ
+c	java:S100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıòšØ
+I
+java:S1068".Remove this unused "driverName" private field.(ÒüÆ¹üÿÿÿÿ

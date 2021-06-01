@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Car</title>
+</head>
+<body>
+
+
+<div class="w3-row">
+
+    <div class="w3-container w3-twothird">
+
+
+        <div class="w3-responsive w3-round-large w3-centered">
+            <table class="w3-table w3-striped w3-bordered w3-white w3-card-4 w3-hoverable w3-centered">
+                <thead>
+                <tr style="background-color: #817a79">
+
+                    <th>driverId</th>
+                    <th>carId</th>
+                    <th>Brand</th>
+
+                    <th>model</th>
+                    <th>fuel</th>
+
+                    <th>fuel in tank</th>
+                    <th>odometer</th>
+
+
+                </tr>
+                </thead>
+
+                <tr th:each="t : ${car}">
+                    <td th:text="${t.getDriver_id()}">fff</td>
+                    <td th:text="${t.getId()}">fff</td>
+                    <td th:text="${t.getBrand()}">fff</td>
+
+                    <td th:text="${t.getModel()}">fff</td>
+                    <td th:text="${t.getFuelType()}">fff</td>
+                    <td th:text="${t.getFuel_in_tank()}">fff</td>
+
+                    <td th:text="${t.getOdometer()}">fff</td>
+
+
+                <!--    <a th:href="@{/cars/{id}/drive_and_back(carId=${t.getCarId()})}"
+                       th:text="${'to drive'}">user</a>-->
+
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

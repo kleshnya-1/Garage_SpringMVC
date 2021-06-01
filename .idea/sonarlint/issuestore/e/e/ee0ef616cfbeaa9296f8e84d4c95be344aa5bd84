@@ -1,0 +1,8 @@
+
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•’Û+
+b
+java:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(Îğë
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îğë
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(„ßİÖ
+Q	java:S125'"<This block of commented-out lines of code should be removed.(­ãÏÆ

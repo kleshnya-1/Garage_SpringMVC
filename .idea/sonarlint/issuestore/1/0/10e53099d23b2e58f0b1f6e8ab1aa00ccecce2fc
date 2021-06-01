@@ -1,0 +1,12 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ğÿ˜Ú
+v
+java:S1450"`Remove the "chanceForBreaking" field and declare it as a local variable in the relevant methods.(öÎÛ­
+|
+java:S1450"fRemove the "chanceForBreakingOnePer" field and declare it as a local variable in the relevant methods.(ÍŒÁ
+z
+java:S1450"_Remove the "odometerInTheCar" field and declare it as a local variable in the relevant methods.(ïò´£ıÿÿÿÿ
+
+java:S1450"dRemove the "reliabilityInPercents" field and declare it as a local variable in the relevant methods.(Ò¹Øûÿÿÿÿ
+4
+java:S2119""Save and re-use this "Random".(ğ¥¯Æ

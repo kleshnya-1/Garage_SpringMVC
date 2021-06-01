@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>new order</title>
+</head>
+<body>
+<header th:insert="blocks/header :: header" ></header>
+<form th:method="POST" th:action="@{/client}" th:object="${order}">
+    <label for="orderExplaining">Enter first: </label>
+    <input type="text" th:field="*{orderExplaining}" id="orderExplaining"/>
+
+    <select name="carType">
+
+        <option th:each="carType : ${T(ru.excers.projectGarage.models.CarType).values()}"
+                th:value="${carType}" th:text="${carType.getDisplayValue()}"></option>
+    </select>
+    <br/>
+
+
+
+    <label for="distanceKm">Enter distanceKm: </label>
+    <input type="text" th:field="*{distanceKm}" id="distanceKm"/>
+    <br/>
+
+
+    <label for="numOfPass">Enter numOfPass: </label>
+    <input type="text" th:field="*{numOfPass}" id="numOfPass"/>
+    <br/>
+    <label for="numOfKg">Enter numOfKg: </label>
+    <input type="text" th:field="*{numOfKg}" id="numOfKg"/>
+    <br/>
+
+    <label for="minutesBeforeOrder">minutes before: </label>
+    <input type="text" th:field="*{minutesBeforeOrder}" id="minutesBeforeOrder"/>
+    <br/>
+
+
+
+    <input type="submit" value="Create!"/>
+</form>
+</body>
+</html>
